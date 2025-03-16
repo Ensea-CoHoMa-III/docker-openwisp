@@ -1,5 +1,5 @@
 # hadolint ignore=DL3007
-FROM kylemanna/openvpn:2.4
+FROM kylemanna/openvpn:dev
 
 RUN apk add --no-cache \
             curl~=7.79.1-r1 \
